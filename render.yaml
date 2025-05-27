@@ -1,5 +1,5 @@
 services:
-  - type: worker
+  - type: web
     name: bot-monitor-favorito
     env: python
     plan: free
