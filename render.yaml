@@ -2,8 +2,6 @@ services:
   - type: worker
     name: bot-monitor-favorito
     env: python
-    repo: https://github.com/otavioluiz3651/bot-monitor-favorito
-    branch: main
     plan: free
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python main.py"
